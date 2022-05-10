@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ativ. Js - Times</title>
+</head>
+<body>
+    
+    <script>
+
+         var time1 = ["Basquete" ,"Lakers" ,"6" ,"Laranja"];
+         var time2 = ["Futebol" , "Corinthians" , "12" ,"Preto"];
+         var time3 = ["Vôlei" , "Brasil" ,"6" ,"Azul"];
+    
+        var cor= prompt('Escolha uma cor predominante (Laranja, Preto ou Azul) ?')
+
+            if (cor == "Laranja"){
+                document.write(time1,'<br>','<br>');
+                document.write('Modalidade: ', time1[0], '<br>');
+                document.write('Time: ', time1[1], '<br>');
+                document.write('Quantidade de jogadores: ', time1[2], '<br>');
+                document.write('Brasão:','<br>');
+                document.write('<img src= "img/lakers.png">');
+            }
+
+            else if (cor == "Preto"){
+                document.write(time2,'<br>','<br>');
+                document.write('Modalidade: ', time2[0],'<br>');
+                document.write('Time: ', time2[1], '<br>');
+                document.write('Quantidade de jogadores: ', time2[2], '<br>');
+                document.write('Brasão:','<br>');
+                document.write('<img src= "img/corinthians.png">');
+            }
+
+            else if (cor == "Azul"){
+                document.write(time3,'<br>','<br>');
+                document.write('Modalidade: ', time3[0],'<br>');
+                document.write('Time: ', time3[1], '<br>');
+                document.write('Quantidade de jogadores: ', time2[2], '<br>');
+                document.write('Brasão:','<br>');
+                document.write('<img src= "img/volei.jpg">');
+            }
+                          
+    </script>
+
+
+</body>
+</html>
